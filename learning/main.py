@@ -173,7 +173,8 @@ def main():
         model.train()
 
         loader = torch.utils.data.DataLoader(train_dataset, batch_size=args.batch_size, collate_fn=spg.eccpc_collate, num_workers=args.nworkers, shuffle=True, drop_last=True)
-        if logging.getLogger().getEffectiveLevel() > logging.DEBUG: loader = tqdm(loader, ncols=100)
+        if logging.getLogger().getEffectiveLevel() > logging.DEBUG:
+            loader = tqdm(loader, ncols=100)
 
         loss_meter = tnt.meter.AverageValueMeter()
         acc_meter = tnt.meter.ClassErrorMeter(accuracy=True)
@@ -183,7 +184,8 @@ def main():
         # iterate over dataset in batches
         for bidx, (targets, GIs, clouds_data) in enumerate(loader):
             t_loader = 1000*(time.time()-t0)
-
+            # added by mirceta
+            args.cuda = 0
             model.ecc.set_info(GIs, args.cuda)
             label_mode_cpu, label_vec_cpu, segm_size_cpu = targets[:,0], targets[:,2:], targets[:,1:].sum(1)
             if args.cuda:
@@ -218,7 +220,6 @@ def main():
             logging.debug('Batch loss %f, Loader time %f ms, Trainer time %f ms.', loss.data[0], t_loader, t_trainer)
             t0 = time.time()
             print(t0)
-
         return acc_meter.value()[0], loss_meter.value()[0], confusion_matrix.get_overall_accuracy(), confusion_matrix.get_average_intersection_union()
 
     ############
@@ -350,7 +351,8 @@ def resume(args, dbinfo):
     model = create_model(checkpoint['args'], dbinfo) #use original arguments, architecture can't change
     optimizer = create_optimizer(args, model)
     
-    model.load_state_dict(checkpoint['state_dict'])
+    #model.load_state_dict(checkpoint['state_dict'])
+    
     if 'optimizer' in checkpoint: optimizer.load_state_dict(checkpoint['optimizer'])
     for group in optimizer.param_groups: group['initial_lr'] = args.lr
     args.start_epoch = checkpoint['epoch']
