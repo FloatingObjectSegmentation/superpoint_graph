@@ -128,6 +128,10 @@ class CloudEmbedder():
             clouds, clouds_global, idx_valid = clouds.cuda(), clouds_global.cuda(), idx_valid.cuda()
         #print('Ptn with', clouds.size(0), 'clouds')
 
+        print("CLOUDS DEVICES")
+        print(clouds.device)
+        print(clouds_global.device)
+
         out = model.ptn(Variable(clouds, volatile=True), Variable(clouds_global, volatile=True))
         out = Variable(out.data, requires_grad=model.training, volatile=not model.training) # cut autograd
 

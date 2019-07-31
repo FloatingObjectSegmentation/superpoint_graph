@@ -89,8 +89,8 @@ class GRUCellEx(nn.GRUCell):
         self._layernorm = layernorm
         self._ingate = ingate
         if layernorm:
-            self.add_module('ini', nn.InstanceNorm1d(1, eps=1e-5, affine=False, track_running_stats=True))
-            self.add_module('inh', nn.InstanceNorm1d(1, eps=1e-5, affine=False, track_running_stats=True))
+            self.add_module('ini', nn.InstanceNorm1d(1, eps=1e-5, affine=False, track_running_stats=False))
+            self.add_module('inh', nn.InstanceNorm1d(1, eps=1e-5, affine=False, track_running_stats=False))
         if ingate:
             self.add_module('ig', nn.Linear(hidden_size, input_size, bias=True))
 
@@ -105,10 +105,11 @@ class GRUCellEx(nn.GRUCell):
             input = nnf.sigmoid(self._modules['ig'](hidden)) * input
 
         # GRUCell in https://github.com/pytorch/pytorch/blob/master/torch/nn/_functions/rnn.py extended with layer normalization
-        if input.is_cuda:
+        if input.is_cuda and torch.__version__.split('.')[0]=='0':
             gi = nnf.linear(input, self.weight_ih)
             gh = nnf.linear(hidden, self.weight_hh)
             gi, gh = self._normalize(gi, gh)
+
             state = torch.nn._functions.thnn.rnnFusedPointwise.GRUFused
             try: #pytorch >=0.3
                 return state.apply(gi, gh, hidden) if self.bias_ih is None else state.apply(gi, gh, hidden, self.bias_ih, self.bias_hh)

@@ -117,7 +117,7 @@ def main():
     args.ptn_widths = ast.literal_eval(args.ptn_widths)
     args.ptn_widths_stn = ast.literal_eval(args.ptn_widths_stn)
 
-
+    print('Torch version: ' + torch.__version__)
     print('Will save to ' + args.odir)
     if not os.path.exists(args.odir):
         os.makedirs(args.odir)
@@ -185,7 +185,7 @@ def main():
         for bidx, (targets, GIs, clouds_data) in enumerate(loader):
             t_loader = 1000*(time.time()-t0)
             # added by mirceta
-            args.cuda = 0
+            # args.cuda = 0
             model.ecc.set_info(GIs, args.cuda)
             label_mode_cpu, label_vec_cpu, segm_size_cpu = targets[:,0], targets[:,2:], targets[:,1:].sum(1)
             if args.cuda:
@@ -217,7 +217,7 @@ def main():
             acc_meter.add(o_cpu, t_cpu)
             confusion_matrix.count_predicted_batch(tvec_cpu, np.argmax(o_cpu,1))
 
-            logging.debug('Batch loss %f, Loader time %f ms, Trainer time %f ms.', loss.data[0], t_loader, t_trainer)
+            logging.debug('Batch loss %f, Loader time %f ms, Trainer time %f ms.', loss.data, t_loader, t_trainer)
             t0 = time.time()
             print(t0)
         return acc_meter.value()[0], loss_meter.value()[0], confusion_matrix.get_overall_accuracy(), confusion_matrix.get_average_intersection_union()
@@ -291,7 +291,7 @@ def main():
         per_class_iou = {}
         perclsiou = confusion_matrix.get_intersection_union_per_class()
         for c, name in dbinfo['inv_class_map'].items():
-            per_class_iou[name] = perclsiou[c]
+            per_class_iou[name] = perclsiou[c - 1] # -1 added by mirceta
 
         return meter_value(acc_meter), confusion_matrix.get_overall_accuracy(), confusion_matrix.get_average_intersection_union(), per_class_iou, predictions,  confusion_matrix.get_mean_class_accuracy(), confusion_matrix.confusion_matrix
 
