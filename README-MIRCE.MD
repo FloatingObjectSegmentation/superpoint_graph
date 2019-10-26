@@ -22,7 +22,7 @@ mirceta's Azure VM. What has been changed and how to now use it.
 - Run partition.py
   - The .cpp libraries are not globally installed. (Cannot run from pycharm)
   - Navigate to SPGraph folder
-  - Run python partition/partition.py --dataset custom_dataset --ROOT_PATH /media/km/<GUID>/workspace --voxel_width 0.5 --reg_strength 0.8 --ver_batch 500
+  - Run python partition/partition.py --dataset custom_dataset --ROOT_PATH /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace2 --voxel_width 0.5 --reg_strength 0.8 --ver_batch 500
 - Run dataset.py
   - Can run directly from pycharm: select the correct debug config and run.
 - Run main.py
