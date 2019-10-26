@@ -1,0 +1,240 @@
+So basically, we have the conda in one partition and the envs we want in another partitions.
+It can be any path, does not have to be inside anaconda in data partition
+
+conda config --append envs_dirs <PATH>
+
+
+
+Please let type here, OK.?
+
+ok
+
+Great.
+
+one more thing to note. Currently the
+Please go on???
+
+So currently the envs are not in the anaconda3 folder even on data partition. look. You can move them there. or whatever your plan is, just wanted to say that.
+
+Ok, just decide where you want the envs to be in, then I take over.
+
+idiot/anaconda3 is OK.
+
+Ok, please go ahead and move the env there.
+
+we only need newenv anyway.
+
+Ok, that's fine.
+
+Give me a second, I am trying to locate your bash config file
+
+
+Do you wao attend tow hat you are moving around, first?
+ I will pause the sessiona nd wait. ok good, thanks.
+
+
+ Oh I see, the folders were getting copied one at a time but you thought thy were not copying
+
+ yes EOlxk. e
+
+ xI will continue
+
+ ok go ahead.
+
+ Please help me to scroll up to l!!!
+
+ start shaking the mouse when you want me to stop!!!
+ Please go on!!!
+
+ we at the top!!!
+ I want the listing for modules names starting with l !!!
+Move it a bit donw to libc
+
+You don't have the libcp module in newenv!!!
+
+i see. can we check if I have it in any other env or python installation. I'm 100% that I've run this code before.!!!
+
+Sure, we can. Which next env do you think?!!!
+
+no idea actually, just check them alphabetically. Oh and if it helps you, I think I used the run the program from the terminal. So maybe we should check
+any default installations as well!!!
+
+ey btw your session is still paused. You better get it running!!!!
+Lol! I get you, but we spend too much time on communication. !!!
+
+that's very appreciative of you, but you can get it running!!!
+Ok, thank you.!!!
+
+
+sure
+
+I used global search to find in all of the envs.!!!
+
+Somehow, not found. Sorry to ask, but did you uinstall Python since the last you ran it?!!!
+
+I'm sure I haven't But I think you didn't scroll far enough, wasn't it called libsp?!!!
+import libcp
+
+yeah sorry.!!!
+
+Don't know what to do now!!! I have the repository from which I installed this project though. Maybe you could check it and find help?!!!
+
+That will be helpful, but before then, I will check one more thing.!!!
+
+ok go ahead!!!
+
+Even before the, you don't seem to want to install the missing package?!!!!
+
+I think it's a manual thing, like a cpp binding or something. I think the creator of the repository made it. But actually I'm not sure, dont know why I hadnt thought it before. lets just do that!!!
+OK, I will check!!!
+
+actually the reason was that this project had lots of dependencies that you had to compile with cmake and I assumed that there would be other problems too. But lets see!!!
+OK!!!
+
+just one thing i remembered. I moved another folder when i was freeing space. let me check if something important was in there!!!
+
+nevermind, nothing!!!
+Ok!!!
+
+
+
+Can we do step 5 again? sure!!!
+
+
+
+ Where is the second terminal I can use?
+
+ Thanks
+
+ hey. what if we try running the program directly from the terminal.
+
+ nkps.np
+
+We have conda pointing to the data partition now, I need to change the path for the envs. Give a second
+
+
+No
+
+ Please help to copy that path
+
+ sure
+
+ OK!!!
+
+ good job man!!!
+
+ Please let's test it on the editor!!!
+
+ ok but we need to set the interpreter. will you do it?!!!
+
+ Yes!!!
+
+ Wrong project. You need to run debug_partition.!!!
+ Ok, please go ahead!!! I will choose the !!!
+ Please bring that back!!!
+ which one do you mean!!!
+
+
+
+
+ You can paste any of the these:
+
+ /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs
+
+ Hey let's just have on communication rule so we can work easier. If either of us starts typing while the other one is doing something, then you let him, cause maybe its important. ok?
+ Yes, sorry about that.
+ np, just to work better.
+
+ Anyway, we do the above one so that the envs are really separated from anaconda folder ok.
+ Yeap. So when one is done typing, we should use !!!
+ even better!!!
+
+ /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/anaconda3/envs
+
+ Do you still have the envs in there?!!!
+
+
+ let me check!!!
+
+ looks like it!!!
+ Ok!
+
+ I see, please copy that path (from the terminal, I will point to it) here!!!
+
+
+
+
+
+ You can use middle mouse click, but dont tell me it's horrible i know. You know of a fast autocomplete package? I tried before but I think there was some other error.
+
+
+ Ok.
+
+ Please paste
+
+ oh man sry.
+
+ /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/anaconda3
+
+ on the terminal
+
+ perhaps its better if you just tell me what to do for now?
+
+
+ OK, better.
+
+
+ So you need to point the path to anaconda on the data partition.
+
+
+
+so just concatenate path with /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv?
+
+
+Well, that may not be cool, because you already have one in the path, but I think it uses the last value.
+
+
+
+
+you go ahead. type.
+
+On the terminal we will do:
+
+export PATH=$PATH:/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/anaconda3/bin
+
+Please copy and paste that.
+
+Paste here please
+
+i dont think it can be done right now.
+
+It can be done, just highlight and right click, it will be copied. I suppose.
+
+/home/km/anaconda3/bin:/home/km/anaconda3/condabin:/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin
+
+Please copy the above and paste in the terminal
+
+
+
+Copy the following line and add it to the end of the bashrc file. ok
+/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/anaconda3/bin:/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/anaconda3/condabin:/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin
+
+
+Please copy and paste that, you can try right click on the vim to paste
+Please save this chat later. Ok.
+
+
+
+let me now just try running it in pycharm. I hope itll find it
+
+maybe need to add interpreter?
+
+Yes, because we have moved the
+
+ok
+
+
+
+
+
+Can you hear me by the way? no I cant. Ok

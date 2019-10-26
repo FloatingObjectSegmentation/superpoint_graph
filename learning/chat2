@@ -1,0 +1,36 @@
+Did you get that error before?!!!
+
+I dont remember, but I think not, because partition.py actually ran!!!
+
+Ok then!!!
+
+/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs
+
+ /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/anaconda3/envs
+
+ Which env did you run it with?!!!
+
+ I either ran it from pycharm from the same env as all the other debug configurations, or with the
+ default python interpreter from the terminal. So with python --args...!!!
+
+ I got you.
+
+ Which of the script?!! You go ahead!!! ok good
+
+ so it needs to go in this order: first you run
+ - partition.py
+ - dataset.py
+ - main.py
+
+ then we win. I'll find the command!!!!
+
+ Omg man it's running I can't believe it!!!
+
+ You are a genius! I am happy !!!
+
+ no man u clearly are haha!!!
+ Thanks, I am learning with you!!!
+
+ you don't know what a help you have been. Though this is only the first part, will you have time if I run into problems in the next steps?!!!
+
+ Absolutely, please let me know!!!

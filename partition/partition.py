@@ -22,7 +22,8 @@ from provider import *
 
 parser = argparse.ArgumentParser(description='Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs')
 parser.add_argument('--ROOT_PATH', default='datasets/s3dis')
-parser.add_argument('--dataset', default='s3dis', help='s3dis/sema3d/your_dataset')
+parser.add_argument('--dataset', default='s3dis', help=
+'s3dis/sema3d/your_dataset')
 parser.add_argument('--k_nn_geof', default=45, type=int, help='number of neighbors for the geometric features')
 parser.add_argument('--k_nn_adj', default=10, type=int, help='adjacency structure for the minimal partition')
 parser.add_argument('--lambda_edge_weight', default=1., type=float, help='parameter determine the edge weight for minimal part.')

@@ -15,9 +15,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/km/anaconda3/envs/newenv/include"
-  "/home/km/anaconda3/envs/newenv/include/eigen3"
-  "/home/km/anaconda3/envs/newenv/include/python3.6m"
+  "/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include"
+  "/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include/eigen3"
+  "/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include/python3.6m"
   )
 
 # Targets to which this target links.

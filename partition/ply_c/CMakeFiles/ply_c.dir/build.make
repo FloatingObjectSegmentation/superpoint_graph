@@ -79,9 +79,9 @@ ply_c_EXTERNAL_OBJECTS =
 
 libply_c.so: CMakeFiles/ply_c.dir/ply_c.cpp.o
 libply_c.so: CMakeFiles/ply_c.dir/build.make
-libply_c.so: /home/km/anaconda3/envs/newenv/lib/libboost_python.so
-libply_c.so: /home/km/anaconda3/envs/newenv/lib/libboost_numpy.so
-libply_c.so: /home/km/anaconda3/envs/newenv/lib/libpython3.6m.so
+libply_c.so: /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_python.so
+libply_c.so: /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_numpy.so
+libply_c.so: /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libpython3.6m.so
 libply_c.so: CMakeFiles/ply_c.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/km/superpoint_graph/partition/ply_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libply_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ply_c.dir/link.txt --verbose=$(VERBOSE)

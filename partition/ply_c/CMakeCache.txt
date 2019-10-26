@@ -15,31 +15,31 @@
 ########################
 
 //No help, variable specified on the command line.
-BOOST_INCLUDEDIR:PATH=/home/km/anaconda3/envs/newenv/include
+BOOST_INCLUDEDIR:PATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include
 
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=/home/km/anaconda3/envs/newenv/include
+Boost_INCLUDE_DIR:PATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include
 
 //Boost library directory DEBUG
-Boost_LIBRARY_DIR_DEBUG:PATH=/home/km/anaconda3/envs/newenv/lib
+Boost_LIBRARY_DIR_DEBUG:PATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib
 
 //Boost library directory RELEASE
-Boost_LIBRARY_DIR_RELEASE:PATH=/home/km/anaconda3/envs/newenv/lib
+Boost_LIBRARY_DIR_RELEASE:PATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib
 
 //Boost numpy library (debug)
-Boost_NUMPY_LIBRARY_DEBUG:FILEPATH=/home/km/anaconda3/envs/newenv/lib/libboost_numpy.so
+Boost_NUMPY_LIBRARY_DEBUG:FILEPATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_numpy.so
 
 //Boost numpy library (release)
-Boost_NUMPY_LIBRARY_RELEASE:FILEPATH=/home/km/anaconda3/envs/newenv/lib/libboost_numpy.so
+Boost_NUMPY_LIBRARY_RELEASE:FILEPATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_numpy.so
 
 //Boost python library (debug)
-Boost_PYTHON_LIBRARY_DEBUG:FILEPATH=/home/km/anaconda3/envs/newenv/lib/libboost_python.so
+Boost_PYTHON_LIBRARY_DEBUG:FILEPATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_python.so
 
 //Boost python library (release)
-Boost_PYTHON_LIBRARY_RELEASE:FILEPATH=/home/km/anaconda3/envs/newenv/lib/libboost_python.so
+Boost_PYTHON_LIBRARY_RELEASE:FILEPATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_python.so
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -228,7 +228,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //No help, variable specified on the command line.
-EIGEN3_INCLUDE_DIR:UNINITIALIZED=/home/km/anaconda3/envs/newenv/include/eigen3
+EIGEN3_INCLUDE_DIR:UNINITIALIZED=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include/eigen3
 
 //Value Computed by CMake
 LIBGEOF_BINARY_DIR:STATIC=/home/km/superpoint_graph/partition/ply_c
@@ -237,16 +237,16 @@ LIBGEOF_BINARY_DIR:STATIC=/home/km/superpoint_graph/partition/ply_c
 LIBGEOF_SOURCE_DIR:STATIC=/home/km/superpoint_graph/partition/ply_c
 
 //Path to a file.
-PYTHON_INCLUDE_DIR:PATH=/home/km/anaconda3/envs/newenv/include/python3.6m
+PYTHON_INCLUDE_DIR:PATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include/python3.6m
 
 //Path to a library.
-PYTHON_LIBRARY:FILEPATH=/home/km/anaconda3/envs/newenv/lib/libpython3.6m.so
+PYTHON_LIBRARY:FILEPATH=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libpython3.6m.so
 
 //Path to a library.
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
 //Dependencies for the target
-ply_c_LIB_DEPENDS:STATIC=general;/home/km/anaconda3/envs/newenv/lib/libboost_python.so;general;/home/km/anaconda3/envs/newenv/lib/libboost_numpy.so;general;/home/km/anaconda3/envs/newenv/lib/libpython3.6m.so;
+ply_c_LIB_DEPENDS:STATIC=general;/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_python.so;general;/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libboost_numpy.so;general;/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libpython3.6m.so;
 
 
 ########################
@@ -409,7 +409,7 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PythonLibs
-FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/home/km/anaconda3/envs/newenv/lib/libpython3.6m.so][/home/km/anaconda3/envs/newenv/include/python3.6m][v3.6.8()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib/libpython3.6m.so][/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include/python3.6m][v3.6.8()]
 //ADVANCED property for variable: PYTHON_INCLUDE_DIR
 PYTHON_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_LIBRARY
@@ -417,15 +417,15 @@ PYTHON_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_LIBRARY_DEBUG
 PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //Last used BOOST_INCLUDEDIR value.
-_BOOST_INCLUDEDIR_LAST:INTERNAL=/home/km/anaconda3/envs/newenv/include
+_BOOST_INCLUDEDIR_LAST:INTERNAL=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=numpy;python
 //Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=/home/km/anaconda3/envs/newenv/include
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.
-_Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/home/km/anaconda3/envs/newenv/lib
+_Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib
 //Last used Boost_LIBRARY_DIR_RELEASE value.
-_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/home/km/anaconda3/envs/newenv/lib
+_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/lib
 //Last used Boost_NAMESPACE value.
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.

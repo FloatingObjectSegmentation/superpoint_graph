@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -std=c++11 -fopenmp -O3 -fPIC
 
 CXX_DEFINES = -Dply_c_EXPORTS
 
-CXX_INCLUDES = -I/home/km/anaconda3/envs/newenv/include -I/home/km/anaconda3/envs/newenv/include/eigen3 -I/home/km/anaconda3/envs/newenv/include/python3.6m 
+CXX_INCLUDES = -I/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include -I/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include/eigen3 -I/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/idiot/envs/newenv/include/python3.6m 
 
