@@ -149,6 +149,7 @@ for folder in folders:
                     pass
 
                     # added by mirceta
+                    print(len(rgb))
                     xyz, rgb, labels = libply_c.prune(xyz, args.voxel_width, rgb, labels, n_labels)
                 #    #an example of pruning without labels
                 #    xyz, rgb, labels = libply_c.prune(xyz, args.voxel_width, rgb, np.array(1,dtype='u1'), 0)

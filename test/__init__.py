@@ -21,11 +21,18 @@ def traverse_datasets(hdf_file):
 filename = '/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace/results/predictions_val.h5'
 confmatfile = '/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace/results/pointwise_cm.npy'
 
-with h5py.File(filename, 'r') as f:
-    for dset in traverse_datasets(filename):
-        print('Path: ', dset)
-        print('Shape: ', f[dset].shape)
-        print('Data type: ', f[dset].dtype)
+# code to print predictions
+# with h5py.File(filename, 'r') as f:
+#     for dset in traverse_datasets(filename):
+#         print('Path: ', dset)
+#         print('Shape: ', f[dset].shape)
+#         print('Data type: ', f[dset].dtype)
+#
+# A = np.load(confmatfile)
+# print(A)
 
-A = np.load(confmatfile)
-print(A)
+filenameA = '/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace/data/train/data442_110.npy'
+filenameB = '/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace2/data/train/data.npy'
+A = np.load(open(filenameA, 'rb'))
+B = np.load(open(filenameB, 'rb'))
+print('')

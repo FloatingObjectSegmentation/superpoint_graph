@@ -26,4 +26,6 @@ mirceta's Azure VM. What has been changed and how to now use it.
 - Run dataset.py
   - Can run directly from pycharm: select the correct debug config and run.
 - Run main.py
+args = --CUSTOM_SET_PATH /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace2
   - Can run direcly from pycharm -||-
+  args = --dataset custom_dataset --CUSTOM_SET_PATH /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace2 --epochs 20 --lr_steps '[275,320]' --test_nth_epoch 2 --model_config gru_10,f_2 --nworkers 2 --pc_attribs xyzelpsv --odir "results" --ptn_nfeat_stn 8 --batch_size 1 --cuda 1

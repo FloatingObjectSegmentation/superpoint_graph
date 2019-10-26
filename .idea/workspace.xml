@@ -2,23 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4cfeff-7db5-4ab4-a017-517878f576c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/superpoint_graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/superpoint_graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README-MIRCE.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README-MIRCE.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/chat2" beforeDir="false" afterPath="$PROJECT_DIR$/learning/chat2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/chats" beforeDir="false" afterPath="$PROJECT_DIR$/learning/chats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/custom_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/custom_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/GraphConvInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/GraphConvInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/GraphConvModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/GraphConvModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/GraphPoolInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/GraphPoolInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/GraphPoolModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/GraphPoolModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/cuda_kernels.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/cuda_kernels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/test_GraphConvModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/test_GraphConvModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/test_GraphPoolModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/test_GraphPoolModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/ecc/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/ecc/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/evaluate_s3dis.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/evaluate_s3dis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/graphnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/graphnet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/pointnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/pointnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/s3dis_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/s3dis_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/sema3d_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/sema3d_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/spg.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning/spg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/cmake/FindNumPy.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/cmake/FindNumPy.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/API.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/API.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/Common.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/Common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_KL.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_KL.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_L2.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_L2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_Linear.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_Linear.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_SPG.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/CutPursuit_SPG.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/include/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/include/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/mex/L0_cut_pursuit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/mex/L0_cut_pursuit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/mex/L0_cut_pursuit_segmentation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/mex/L0_cut_pursuit_segmentation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/src/cutpursuit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/src/cutpursuit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/cut-pursuit/src/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/partition/cut-pursuit/src/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/partition/graphs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/partition.py" beforeDir="false" afterPath="$PROJECT_DIR$/partition/partition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/feature_tests.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/ply_c.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/ply_c.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partition/ply_c/libply_c.so" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/libply_c.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/ply_c.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/ply_c/ply_c.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/partition/ply_c/ply_c.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/partition/provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/partition/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition/write_Semantic3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/partition/write_Semantic3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cmdline.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/cmdline.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
+            <state relative-caret-position="195">
+              <caret line="284" column="31" lean-forward="true" selection-start-line="284" selection-start-column="31" selection-end-line="284" selection-end-column="31" />
               <folding>
                 <element signature="e#600#631#0" expanded="true" />
               </folding>
@@ -50,28 +117,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learning/chats">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="151" column="68" selection-start-line="141" selection-start-column="1" selection-end-line="151" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learning/chat2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learning/custom_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="306">
+              <caret line="102" column="50" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
               <folding>
                 <element signature="e#322#353#0" expanded="true" />
               </folding>
@@ -82,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="203">
+              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -92,21 +141,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learning/sema3d_dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding>
-                <element signature="e#159#190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning/spg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3045">
+            <state relative-caret-position="3030">
               <caret line="215" column="62" selection-start-line="215" selection-start-column="62" selection-end-line="215" selection-end-column="62" />
               <folding>
                 <element signature="e#159#190#0" expanded="true" />
@@ -118,8 +155,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partition/partition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="336">
+              <caret line="152" column="99" lean-forward="true" selection-start-line="152" selection-start-column="99" selection-end-line="152" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partition/provider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="473" column="14" lean-forward="true" selection-start-line="473" selection-start-column="14" selection-end-line="473" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partition/write_Semantic3d.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -128,8 +183,20 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="361">
-                <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <first_editor relative-caret-position="-224">
+                <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README-MIRCE.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -167,6 +234,7 @@
       <find>libcp</find>
       <find>.h5</find>
       <find>.db_test_name</find>
+      <find>interpolate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +244,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/learning/graphnet.py" />
-        <option value="$PROJECT_DIR$/partition/provider.py" />
         <option value="$PROJECT_DIR$/learning/sema3d_dataset.py" />
         <option value="$PROJECT_DIR$/learning/custom_dataset.py" />
         <option value="$PROJECT_DIR$/learning/spg.py" />
@@ -184,10 +251,12 @@
         <option value="$PROJECT_DIR$/learning/modules.py" />
         <option value="$PROJECT_DIR$/learning/chats" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/partition/partition.py" />
         <option value="$PROJECT_DIR$/learning/chat2" />
-        <option value="$PROJECT_DIR$/test/__init__.py" />
+        <option value="$PROJECT_DIR$/README-MIRCE.MD" />
         <option value="$PROJECT_DIR$/learning/main.py" />
+        <option value="$PROJECT_DIR$/partition/partition.py" />
+        <option value="$PROJECT_DIR$/partition/provider.py" />
+        <option value="$PROJECT_DIR$/test/__init__.py" />
       </list>
     </option>
   </component>
@@ -203,6 +272,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,18 +288,22 @@
             <path>
               <item name="superpoint_graph" type="b2602c69:ProjectViewProjectNode" />
               <item name="superpoint_graph" type="462c0819:PsiDirectoryNode" />
+              <item name="partition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="superpoint_graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="superpoint_graph" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.bashrc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.bashrc" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -279,7 +353,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning/custom_dataset.py" />
-      <option name="PARAMETERS" value="--CUSTOM_SET_PATH /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace" />
+      <option name="PARAMETERS" value="--CUSTOM_SET_PATH /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace2" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -315,13 +389,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../anaconda3/bin/python" />
-      <option name="WORKING_DIRECTORY" value="/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace2" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning/main.py" />
-      <option name="PARAMETERS" value="--dataset custom_dataset --CUSTOM_SET_PATH /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace --epochs 1000 --lr_steps '[275,320]' --test_nth_epoch 2 --model_config gru_10,f_2 --nworkers 2 --pc_attribs xyzelpsv --odir &quot;results&quot; --ptn_nfeat_stn 8 --batch_size 1 --cuda 1" />
+      <option name="PARAMETERS" value="--dataset custom_dataset --CUSTOM_SET_PATH /media/km/ad02048a-21c3-4454-b1b4-58c5a99df3c5/workspace2 --epochs 20 --lr_steps '[275,320]' --test_nth_epoch 2 --model_config gru_10,f_2 --nworkers 2 --pc_attribs xyzelpsv --odir &quot;results&quot; --ptn_nfeat_stn 8 --batch_size 1 --cuda 1" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -421,15 +495,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1405" y="84" width="2282" height="1835" extended-state="0" />
+    <frame x="-3" y="31" width="1370" height="691" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16157855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.557636" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39847866" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37168142" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24070796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -447,8 +522,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/__init__.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learning/main.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -473,13 +553,6 @@
     <entry file="file://$PROJECT_DIR$/../anaconda3/envs/newenv/lib/python3.6/site-packages/torchnet/meter/classerrormeter.py" />
     <entry file="file://$PROJECT_DIR$/learning/evaluate_s3dis.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partition/provider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="348" column="26" selection-start-line="348" selection-start-column="26" selection-end-line="348" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learning/s3dis_dataset.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -515,6 +588,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../.bashrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/chats">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" column="68" selection-start-line="141" selection-start-column="1" selection-end-line="151" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/chat2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learning/sema3d_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -527,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning/spg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
+        <state relative-caret-position="3030">
           <caret line="215" column="62" selection-start-line="215" selection-start-column="62" selection-end-line="215" selection-end-column="62" />
           <folding>
             <element signature="e#159#190#0" expanded="true" />
@@ -535,48 +629,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.bashrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/chats">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="151" column="68" selection-start-line="141" selection-start-column="1" selection-end-line="151" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <first_editor relative-caret-position="-224">
+            <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning/chat2">
+    <entry file="file://$PROJECT_DIR$/README-MIRCE.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/custom_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="306">
+          <caret line="102" column="50" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+          <folding>
+            <element signature="e#322#353#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partition/partition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="336">
+          <caret line="152" column="99" lean-forward="true" selection-start-line="152" selection-start-column="99" selection-end-line="152" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="203">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -592,21 +685,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
+        <state relative-caret-position="195">
+          <caret line="284" column="31" lean-forward="true" selection-start-line="284" selection-start-column="31" selection-end-line="284" selection-end-column="31" />
           <folding>
             <element signature="e#600#631#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning/custom_dataset.py">
+    <entry file="file://$PROJECT_DIR$/partition/provider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#322#353#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="473" column="14" lean-forward="true" selection-start-line="473" selection-start-column="14" selection-end-line="473" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/write_Semantic3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
         </state>
       </provider>
     </entry>
